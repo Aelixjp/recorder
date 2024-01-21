@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+
+video{
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    height: 100%;
+}
+
+.recordingBtns{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: stretch;
+    position: absolute;
+    right: 75px;
+    top: calc(50% - 140px);
+}
+
+.recordingBtns > button{
+    margin-top: 30px;
+    width: 100%;
+    padding: 10px;
+}
+
+#downloader{
+    display: none;
+}
